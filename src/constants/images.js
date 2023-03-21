@@ -15,6 +15,10 @@ import blackberry from "../../assets/images/Juicy/blackberry.jpeg";
 import original from "../../assets/images/Juicy/original.jpeg";
 import tangerine from "../../assets/images/Juicy/tangerine.jpeg";
 import enola from "../../assets/images/Juicy/enola.jpeg";
+// Nature
+import chair01 from "../../assets/images/Nature/chair01.png";
+import chair02 from "../../assets/images/Nature/chair02.png";
+import logo from "../../assets/images/Nature/logo.png";
 
 export default {
   avocado,
@@ -31,5 +35,8 @@ export default {
   blackberry,
   original,
   tangerine,
-  enola
+  enola,
+  chair01,
+  chair02,
+  logo
 };

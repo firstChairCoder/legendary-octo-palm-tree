@@ -9,10 +9,19 @@ import {
   Roboto_700Bold,
   Roboto_900Black
 } from "@expo-google-fonts/roboto";
+import {
+  Poppins_200ExtraLight,
+  Poppins_300Light,
+  Poppins_400Regular,
+  Poppins_500Medium,
+  Poppins_700Bold,
+  Poppins_800ExtraBold
+} from "@expo-google-fonts/poppins";
 
 import Shoes from "./src/screens/Shoes";
 import JuicyTabsStack from "./src/navigation/JuicyTabsStack";
 import AvocadoStack from "./src/navigation/AvocadoStack";
+import NatureStack from "./src/navigation/NatureStack";
 
 const theme = {
   ...DefaultTheme,
@@ -32,7 +41,13 @@ export default function App() {
     "Roboto-Italic": Roboto_400Regular_Italic,
     "Roboto-Medium": Roboto_500Medium,
     "Roboto-Bold": Roboto_700Bold,
-    "Roboto-Black": Roboto_900Black
+    "Roboto-Black": Roboto_900Black,
+    "Poppins-Light": Poppins_300Light,
+    "Poppins-Regular": Poppins_400Regular,
+    "Poppins-Medium": Poppins_500Medium,
+    "Poppins-Bold": Poppins_700Bold,
+    "Poppins-ExtraBold": Poppins_800ExtraBold,
+    "Poppins-ExtraLight": Poppins_200ExtraLight
   });
 
   if (!fontsLoaded) {
@@ -46,9 +61,10 @@ export default function App() {
           headerShown: false
         }}
       >
-        <Stack.Screen name="Avocado" component={AvocadoStack} />
+        {/* <Stack.Screen name="Avocado" component={AvocadoStack} />
         <Stack.Screen name="ShoesHome" component={Shoes} />
-        <Stack.Screen name="Juicy" component={JuicyTabsStack} />
+        <Stack.Screen name="Juicy" component={JuicyTabsStack} /> */}
+        <Stack.Screen name="Nature" component={NatureStack} />
       </Stack.Navigator>
     </NavigationContainer>
   );

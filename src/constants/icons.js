@@ -25,6 +25,21 @@ import signal from "../../assets/icons/Juicy/signal.png";
 import strawberry from "../../assets/icons/Juicy/strawberry.png";
 import user from "../../assets/icons/Juicy/user.png";
 import arrow2 from "../../assets/icons/Juicy/arrow.png";
+// nature
+import archive from "../../assets/icons/Nature/archive.png";
+import arrow3 from "../../assets/icons/Nature/arrow.png";
+import award from "../../assets/icons/Nature/award.png";
+import cart3 from "../../assets/icons/Nature/cart.png";
+import chair from "../../assets/icons/Nature/chair.png";
+import flag from "../../assets/icons/Nature/flag.png";
+import heart2 from "../../assets/icons/Nature/heart.png";
+import lamps from "../../assets/icons/Nature/lamps.png";
+import menu3 from "../../assets/icons/Nature/menu.png";
+import mic from "../../assets/icons/Nature/mic.png";
+import move from "../../assets/icons/Nature/move.png";
+import search2 from "../../assets/icons/Nature/search.png";
+import shelves from "../../assets/icons/Nature/shelves.png";
+import tables from "../../assets/icons/Nature/tables.png";
 
 export default {
   arrow,
@@ -51,5 +66,19 @@ export default {
   signal,
   strawberry,
   user,
-  arrow2
+  arrow2,
+  archive,
+  arrow3,
+  award,
+  cart3,
+  chair,
+  flag,
+  heart2,
+  lamps,
+  menu3,
+  mic,
+  move,
+  search2,
+  shelves,
+  tables
 };
